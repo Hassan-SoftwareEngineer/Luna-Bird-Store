@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.SignUpmainContainer {
+    width: "auto";
+    height: "auto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5); 
+    padding: 0.5rem 3rem 0.5rem;
+    margin: 2.3% 3% 3% 0%;
+    border-radius: 1.5rem;
+}
+
+#SignUpmainHeading {
+    color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 580;
+    font-size: 2.8rem;
+    /* margin-bottom: 1rem; */
+}
+
+.SignUpinputsMain {
+    /* margin-top: 0.2rem; */
+    height: auto;
+    width: auto;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 122, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2%; */
+}
+
+.SignUpinputsMain input {
+    width: 15.75rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #0CA5D1;
+    height: 2.3rem;
+    font-size: medium;
+    margin-bottom: 0.2rem;
+    padding: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.SignUpinputsMain input::placeholder {
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+.SignUpinputsMain label {
+    display: block;
+    margin-bottom: 0rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+}
+
+#SignUpbtnsDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.SignUpBtns {
+    width: 9rem;
+    height: 2.6rem;
+    color: whitesmoke ;
+    font-size: large;
+    display: block;
+    /* margin: 0.5rem 0 0 7.5rem; */
+    margin-top: 5%;
+    background-color: rgba(255, 122, 0);
+    font-weight: 700;
+    border: 2px solid rgba(255, 122, 0);
+    border-radius: 2rem;
+}
+
+.SignUpBtns:hover {
+    color: whitesmoke;
+    font-weight: 700;
+    border: 2px solid whitesmoke;
+    background: transparent;
+}
+
+#CancelBtn {
+    background: transparent;
+    border: 2px solid whitesmoke;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+#CancelBtn:hover {
+    background-color: #FF7A00;
+    border: 2px solid #FF7A00;
+    color: whitesmoke;
+}
+
+.AlreadyLogin {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 800;
+}
+
+.AlreadyLoginSpan {
+    color: #FFD700;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.AlreadyLoginSpan:hover {
+    color: #FF7A00;
+    cursor: pointer;
+}

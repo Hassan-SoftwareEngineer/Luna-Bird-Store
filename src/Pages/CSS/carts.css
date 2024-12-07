@@ -1,0 +1,112 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 50rem;
+    box-shadow: 0px 0px 15px rgba(255, 166, 0,0.5); 
+  }
+  
+  .imageSection {
+    width: 40%;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .detailsSection {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .productTitle {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .priceAndControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .priceText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .quantityControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .quantityButton {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+  }
+  
+  .quantityButton:hover {
+    background-color: #218838;
+  }
+  
+  .quantityDisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .removeButton {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+  }
+  
+  .removeButton:hover {
+    background-color: #c82333;
+  }
+
+  #noItemsText {
+    color: #FF7A00;
+    font-size: xx-large;
+    text-align: center;
+    margin: 2rem;
+    font-weight: bold;
+
+  }
+  

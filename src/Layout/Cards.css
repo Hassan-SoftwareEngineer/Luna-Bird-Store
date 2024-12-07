@@ -1,0 +1,99 @@
+
+.CardMainContainer {
+  width: 25rem;
+  height: 33rem;
+  border-radius: 10px;
+   box-shadow: 0px 0px 15px rgba(255, 166, 0,0.5); 
+   margin: 2.5%;
+   margin-top: 2%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.imageDiv {
+  width: 25rem;
+  height: 12.58rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageDiv img {
+  height: 12.58rem;
+  width: 22.5rem;
+  background-position: center;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.mainContents {
+  margin-top: 2rem;
+  text-align: center;
+  height: 16.2rem;
+}
+
+.mainContents h2 {
+  color: #6CAE05 ;
+  font-weight: 650;
+}
+.mainContents h2:hover {
+color: #FF7A00;
+}
+
+.mainContents p {
+  margin: 0.2rem 1rem 0rem 1rem ;
+  height: 8rem;
+  padding: 10px;
+  text-align-last: left;
+  text-align: justify; 
+  max-width: inherit;
+  margin-left: 0.9375rem;
+  margin-right: 1.25rem;
+}
+
+#price {
+  color: #FF7A00;
+}
+
+#price:hover {
+  color: #6CAE05;
+}
+
+
+.btnsDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  padding-top: 0.5rem;
+}
+
+.Btn {
+  background-color: #FF7A00;
+  border: 3px solid #FF7A00;
+  font-size: larger;
+  border-radius: 2rem;
+  color: whitesmoke;
+  width: 10rem;
+  font-weight: 600;
+  height: 3rem;
+}
+
+.Btn:hover {
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  background: #6CAE05 ;
+}
+
+#Explore {
+  background: #6CAE05;
+  border: 3px solid whitesmoke;
+  font-weight: 600;
+  margin-left: 1rem;
+  height: 3rem;
+}
+#Explore:hover {
+  background-color: #FF7A00;
+  border: 3px solid #FF7A00;
+  color: whitesmoke;
+}

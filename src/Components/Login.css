@@ -1,0 +1,152 @@
+
+.mainContainer {
+    width: "auto";
+    height: "auto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5); 
+    padding: 3rem;
+    padding-top: 1rem;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 1.5rem;
+    margin: 6% 0% 7% 0%;
+}
+
+#mainHeading {
+    color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 580;
+    font-size: 2.8rem;
+}
+
+.inputsMain {
+    height: auto;
+    width: auto;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 122, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.inputsMain input {
+    width: 15.75rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #0CA5D1;
+    height: 2.5rem;
+    font-size: medium;
+    padding: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.inputsMain input::placeholder {
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+.inputsMain label {
+    display: block;
+    margin-bottom: 0rem;
+    height: 2.4rem;
+    margin-top: 1rem;
+}
+
+#btnsDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.btn {
+    width: 9rem;
+    height: 2.6rem;
+    color: whitesmoke ;
+    font-size: large;
+    display: block;
+    margin-top: 5%;
+    background-color: rgba(255, 122, 0);
+    font-weight: 700;
+    border: 2px solid rgba(255, 122, 0);
+    border-radius: 2rem;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    font-weight: 700;
+    border: 2px solid whitesmoke;
+    background: transparent;
+}
+
+#Cancel {
+    background: transparent;
+    border: 2px solid whitesmoke;
+    font-weight: 600;
+}
+
+#Cancel:hover {
+    background-color: #FF7A00;
+    border: 2px solid #FF7A00;
+    color: whitesmoke;
+}
+
+.loginDontHave {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 800;
+}
+
+.loginDontHaveSpan {
+    color: #FFD700;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.loginDontHaveSpan:hover {
+    color: #FF7A00;
+    cursor: pointer;
+}
+
+
+.passwordContainer {
+    position: relative;
+    width: 15.75rem;
+}
+
+.passwordContainer input {
+    width: 100%;
+    padding-right: 2.5rem; /* Add padding to make space for the icon */
+}
+
+.passwordToggle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem; /* Adjust size as needed */
+    cursor: pointer;
+    padding: 0.5rem;
+    color: #0CA5D1; /* Adjust color as needed */
+}
+
+.passwordToggle:hover {
+    color: #FF7A00; /* Adjust color on hover as needed */
+}

@@ -1,0 +1,89 @@
+nav {
+    background-color: #333;
+    height: var(--navbar-height); /* Use CSS variable for navbarA height */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Space around logo and links */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 0.5rem;
+    border-bottom: 3px solid #FF7A00;
+}
+
+.logo img {
+    height: 100px; /* Adjust height of logo */
+    width: auto; /* Adjust width of logo */
+    margin-left: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem; /* Decrease space between links */
+}
+
+.anchortag {
+    color: #FF7A00;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.8;
+}
+
+.anchortagActive {
+    color: yellow;
+    border-bottom: 1px solid #6CAE05;
+    border-radius: 2px;
+    border-width: 0.2rem;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.8;
+}
+/* .nav-links a {
+    color: #FF7A00;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.8;
+}
+
+.nav-links a:hover {
+    color: yellow;
+    border-bottom: 1px solid peru;
+    border-radius: 2px;
+    border-width: 0.2rem;
+} */
+
+.nav-links a img {
+    vertical-align: middle;
+    margin-right: 0rem;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .logo img {
+        height: auto;
+        max-width: 80px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+}
+

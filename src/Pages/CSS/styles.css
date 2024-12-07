@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --navbar-height: 7rem; /* Height of the navbar */
+    --footer-height: 15rem; /* Set a fixed footer height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    /* background-color: yellowgreen; */
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--navbar-height); /* Space for the fixed navbar */
+    height: calc(100vh - var(--navbar-height)); /* Full height minus navbar */
+    overflow-y: auto; /* Allow scrolling within content */
+    background-color: #6CAE05;
+    /* padding-top: 1%; */
+    /* margin-bottom: 1%; */
+    /* background-color: yellowgreen; */
+}
+
+#imgContainer {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    align-content: center;
+}
+
+#imgContainer img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
