@@ -42,5 +42,6 @@ Ensure you have the following installed:
 ### Installation  
 1. Clone this repository:  
    ```bash
-   git@github.com:Hassan-SoftwareEngineer/Luna-Bird-Store.git
+   https://github.com/Hassan-SoftwareEngineer/Luna-Bird-Store.git
    cd Luna-Bird-Store
+   
