@@ -9,6 +9,7 @@ This project marks my first step into frontend development with React JS and ser
 
 ## 🚀 Features  
 - **Home Page**: A welcoming landing page introducing birds, services, and user account options (login/signup).
+  
 
 
   ![Home Page 1](output_images/Home1.png)
@@ -22,11 +23,12 @@ This project marks my first step into frontend development with React JS and ser
 
 - **Selling Birds**: Browse a list of birds available for purchase and add them to the cart.
 
-  
+
   ![Selling Birds](output_images/sellingBirds.png)  
 
 
 - **Cages Page**: Explore and select bird cages.
+
 
 
   ![Cages](output_images/cages.png)
@@ -35,16 +37,19 @@ This project marks my first step into frontend development with React JS and ser
 - **Accessories Page**: View bird accessories for purchase.
 
 
+
   ![Accessories](output_images/Accessories.png)
   
 
 - **Bird Categories**: Filter birds by categories such as **Love Birds** and **Ring Birds**.
 
-  
+
+
   ![Bird Categories](output_images/birdsCategories.png)
   
 
 - **Healthy Foods**: A curated list of healthy food options for birds.
+
 
  
   ![Healthy Foods](output_images/healthyFoods.png)
@@ -52,11 +57,13 @@ This project marks my first step into frontend development with React JS and ser
 
 - **Breeding & Treatments**: Medications and products for disease treatment and breeding support.
 
+
   
   ![Breeding & Treatments](output_images/breedingTreatment.png)
   
 
 - **Cart Page**: A dynamic cart where users can view and manage their selected items.
+
 
 
   ![Cart Page](output_images/Carts.png)  
