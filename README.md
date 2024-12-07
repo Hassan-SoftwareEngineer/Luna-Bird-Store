@@ -20,9 +20,12 @@ This project marks my first step into frontend development with React JS and ser
 
 
    ![Home Page 1](output_images/login.png)
+
   
   
  ![Home Page 1](output_images/signUp.png)
+
+
    
 
 - **Selling Birds**: Browse a list of birds available for purchase and add them to the cart.
